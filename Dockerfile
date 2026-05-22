@@ -1,26 +1,27 @@
 FROM php:8.2-apache
 
-# Installer les extensions PHP nécessaires
-RUN docker-php-ext-install pdo pdo_pgsql
+# Installer les extensions PostgreSQL
+RUN apt-get update && apt-get install -y libpq-dev && \
+    docker-php-ext-install pdo pdo_pgsql
 
-# Activer mod_rewrite pour Apache
+# Activer mod_rewrite
 RUN a2enmod rewrite
 
-# Copier le code dans le container
+# Installer Composer
+COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
+
+# Copier le code
 COPY . /var/www/html
 
-# Configurer Apache
-RUN echo 'DocumentRoot /var/www/html/public' > /etc/apache2/sites-available/000-default.conf
-
-# Installer Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
-# Installer les dépendances PHP
+# Installer les dépendances
 WORKDIR /var/www/html
-RUN composer install --no-dev
+RUN composer install --no-dev --no-interaction
 
-# Expose port 80
+# Configurer Apache DocumentRoot
+RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
+
+# Permissions
+RUN chown -R www-data:www-data /var/www/html
+
 EXPOSE 80
-
-# Start Apache
 CMD ["apache2-foreground"]
