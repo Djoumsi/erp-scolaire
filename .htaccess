@@ -1,0 +1,10 @@
+# Sécurité racine projet — Apache 2.4
+# Ne pas mettre de RewriteRule ici : c'est public/.htaccess qui gère le routage
+
+# Interdire la navigation dans les dossiers
+Options -Indexes
+
+# Protéger les fichiers et dossiers sensibles
+<FilesMatch "(^\.env.*|composer\.(json|lock)|package\.json|yarn\.lock)">
+    Require all denied
+</FilesMatch>

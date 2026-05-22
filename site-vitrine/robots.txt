@@ -1,0 +1,40 @@
+# Robots.txt - MBOA School
+# Tech Solutions DDTP
+# SEO Optimization
+
+# Autoriser tous les robots
+User-agent: *
+Allow: /
+Disallow: /logs/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /newsletter-handler.php
+Disallow: /form-handler.php
+Disallow: /email-config.php
+Disallow: /*?*utm_*
+Disallow: /*?*sid=*
+
+# Délai de crawl (ms)
+Crawl-delay: 1
+
+# Vitesse de requête (req/s)
+Request-rate: 1/1s
+
+# Sitemap
+Sitemap: https://mboaschool.cm/sitemap.xml
+
+# Règles spécifiques pour Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Refuser les mauvais bots
+User-agent: MJ12bot
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: DotBot
+Disallow: /
+
+# Plan du site
+# Les URLs principales sont indexées via sitemap.xml

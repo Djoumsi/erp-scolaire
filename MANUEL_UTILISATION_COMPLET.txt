@@ -1,0 +1,603 @@
+===============================================================================
+MANUEL D'UTILISATION - ERP SCOLAIRE CAMEROUN
+===============================================================================
+Format: À convertir en Word (Times New Roman, 12pt)
+
+COUVERTURE
+───────────────────────────────────────────────────────────────────────────
+
+                            ERP SCOLAIRE CAMEROUN
+
+                    Gestion Complète d'un Établissement Scolaire
+
+                              MANUEL D'UTILISATION
+
+                                Version 1.0
+                              Mai 2026
+
+Support : support@erp-scolaire-cameroun.cm
+Téléphone : +237 6XX XXX XXX
+WhatsApp : +237 6XX XXX XXX
+
+───────────────────────────────────────────────────────────────────────────
+
+TABLE DES MATIÈRES
+───────────────────────────────────────────────────────────────────────────
+
+1. INTRODUCTION
+   1.1 Qu'est-ce que l'ERP Scolaire Cameroun ?
+   1.2 Configuration requise
+   1.3 Avant de commencer
+
+2. ACCÈS À L'APPLICATION
+   2.1 Première connexion
+   2.2 Interface principale
+   2.3 Gestion du profil utilisateur
+
+3. TABLEAU DE BORD (DASHBOARD)
+   3.1 Vue d'ensemble
+   3.2 Statistiques principales
+   3.3 Graphiques et analyse
+
+4. GESTION DES ÉLÈVES
+   4.1 Inscription d'un élève
+   4.2 Modification des informations
+   4.3 Import en masse (CSV)
+   4.4 Export des données
+
+5. GESTION DU PERSONNEL
+   5.1 Ajout d'un enseignant
+   5.2 Attribution des responsabilités
+   5.3 Gestion des droits d'accès
+
+6. ORGANISATION DES CLASSES
+   6.1 Création d'une classe
+   6.2 Affectation des élèves
+   6.3 Affectation des enseignants
+
+7. EMPLOI DU TEMPS
+   7.1 Création de l'emploi du temps
+   7.2 Gestion des créneaux horaires
+   7.3 Affichage par classe/enseignant
+
+8. PRÉSENCES
+   8.1 Appel numérique
+   8.2 Gestion des justifications
+   8.3 Rapports d'absentéisme
+
+9. NOTES ET ÉVALUATIONS
+   9.1 Saisie des notes
+   9.2 Périodes et trimestres
+   9.3 Calcul automatique des moyennes
+   9.4 Classement des élèves
+
+10. BULLETINS
+    10.1 Génération des bulletins
+    10.2 Impression PDF
+    10.3 Distribution aux parents
+
+11. PAIEMENTS ET FRAIS
+    11.1 Gestion des tranches de paiement
+    11.2 Enregistrement des versements
+    11.3 Suivi des impayés
+    11.4 Génération de reçus
+
+12. EXAMENS ET CONCOURS
+    12.1 Programmation des examens
+    12.2 Affectation des salles
+    12.3 Édition des listes d'admission
+
+13. BIBLIOTHÈQUE
+    13.1 Gestion du catalogue
+    13.2 Système de prêts
+    13.3 Retours et sanctions
+
+14. COMMUNICATION
+    14.1 Annonces et notifications
+    14.2 Messagerie interne
+    14.3 Envoi de SMS/Email aux parents
+
+15. RAPPORTS ET STATISTIQUES
+    15.1 Rapport des élèves
+    15.2 Rapport des notes
+    15.3 Rapport des paiements
+    15.4 Rapport des présences
+
+16. COMPTABILITÉ
+    16.1 Enregistrement des transactions
+    16.2 Bilan financier
+    16.3 Export pour expertise
+
+17. PARAMÈTRES
+    17.1 Configuration générale
+    17.2 Années scolaires
+    17.3 Cycles et niveaux
+    17.4 Matières et coefficients
+
+18. SUPPORT ET DÉPANNAGE
+    18.1 Problèmes courants
+    18.2 Contact support
+    18.3 FAQ
+
+───────────────────────────────────────────────────────────────────────────
+
+INTRODUCTION
+───────────────────────────────────────────────────────────────────────────
+
+1.1 QU'EST-CE QUE L'ERP SCOLAIRE CAMEROUN ?
+
+L'ERP Scolaire Cameroun est une solution informatique complète conçue pour
+simplifier la gestion administrative et pédagogique des établissements
+scolaires (écoles primaires, collèges, lycées et universités).
+
+Avantages principaux :
+• Gestion centralisée de tous les données scolaires
+• Économies de temps et d'argent
+• Amélioration de la communication école-parents
+• Suivi automatisé des notes et présences
+• Génération rapide des rapports et statistiques
+• Sécurité des données avec sauvegarde automatique
+• Accès depuis n'importe quel navigateur web
+
+1.2 CONFIGURATION REQUISE
+
+Matériel :
+• Ordinateur de bureau ou portable
+• Connexion Internet stable (au minimum 1 Mbps)
+• Navigateur web moderne (Chrome, Firefox, Safari, Edge)
+
+Logiciels :
+• Aucun logiciel supplémentaire à installer
+• L'application fonctionne entièrement en ligne
+
+Recommandations :
+• Utiliser une connexion sécurisée (HTTPS)
+• Mettre à jour votre navigateur régulièrement
+• Avoir une sauvegarde des données importantes
+
+1.3 AVANT DE COMMENCER
+
+Préparation préalable :
+1. Identifiants : Demander au directeur votre identifiant et mot de passe
+2. Rôle : Connaître votre rôle dans l'application
+3. Formation : Participer à la séance de formation (webinaire ou présentiel)
+4. Documentation : Avoir ce manuel à portée de main
+
+Les différents rôles :
+• Super Admin : Accès complet à toute l'application
+• Admin : Gestion de l'établissement et des utilisateurs
+• Directeur : Supervision générale et rapports
+• Enseignant : Saisie des notes et gestion des présences
+• Comptable : Gestion des paiements et finances
+• Secrétaire : Support administratif
+
+───────────────────────────────────────────────────────────────────────────
+
+ACCÈS À L'APPLICATION
+───────────────────────────────────────────────────────────────────────────
+
+2.1 PREMIÈRE CONNEXION
+
+Étapes :
+
+1. Ouvrir un navigateur web (Chrome, Firefox, Safari ou Edge)
+
+2. Entrer l'adresse : https://erp-scolaire-cameroun.cm
+
+3. Vous arrivez à la page de connexion
+
+4. Entrer vos identifiants :
+   - Nom d'utilisateur : [fourni par votre établissement]
+   - Mot de passe : [fourni par votre établissement]
+
+5. Cliquer sur « Connexion »
+
+⚠️ IMPORTANT :
+- Ne jamais partager votre mot de passe
+- Modifier votre mot de passe à la première connexion
+- Se déconnecter après chaque session
+
+Mot de passe oublié ?
+→ Cliquer sur « Mot de passe oublié ? »
+→ Entrer votre adresse email
+→ Consulter votre email (vérifier le dossier spam)
+→ Cliquer sur le lien de réinitialisation
+→ Créer un nouveau mot de passe
+
+2.2 INTERFACE PRINCIPALE
+
+Après connexion, vous arrivez au Tableau de Bord.
+
+Éléments principaux :
+
+┌─────────────────────────────────────────────────────────┐
+│  BARRE SUPÉRIEURE                                       │
+│  - Logo ERP Scolaire                                    │
+│  - Notifications (🔔)                                   │
+│  - Profil utilisateur (👤)                              │
+└─────────────────────────────────────────────────────────┘
+┌──────────────────┐  ┌────────────────────────────────────┐
+│  MENU LATÉRAL    │  │   CONTENU PRINCIPAL              │
+│  (NAVIGATION)    │  │                                    │
+│                  │  │  • Tableau de bord                │
+│ • Tableau de     │  │  • Statistiques                   │
+│   bord           │  │  • Graphiques                     │
+│ • Élèves         │  │  • Dernières actions             │
+│ • Personnel      │  │                                    │
+│ • Classes        │  │                                    │
+│ • Emploi temps   │  │                                    │
+│ • Présences      │  │                                    │
+│ • Notes          │  │                                    │
+│ • Bulletins      │  │                                    │
+│ • Paiements      │  │                                    │
+│ • Rapports       │  │                                    │
+│ • Paramètres     │  │                                    │
+│                  │  │                                    │
+└──────────────────┘  └────────────────────────────────────┘
+
+2.3 GESTION DU PROFIL UTILISATEUR
+
+Accéder à son profil :
+1. Cliquer sur votre avatar (en haut à droite)
+2. Cliquer sur « Mon profil »
+
+Informations disponibles :
+• Nom complet
+• Fonction/Rôle
+• Établissement
+• Photo de profil
+• Adresse email
+• Numéro de téléphone
+
+Modifier votre profil :
+1. Cliquer sur « Modifier »
+2. Remplir les champs à jour
+3. Cliquer sur « Enregistrer »
+
+Changer le mot de passe :
+1. Aller à « Mon profil »
+2. Cliquer sur « Changer le mot de passe »
+3. Entrer l'ancien mot de passe
+4. Entrer le nouveau mot de passe (2 fois)
+5. Cliquer sur « Mettre à jour »
+
+Recommandations pour le mot de passe :
+• Minimum 8 caractères
+• Mélanger majuscules, minuscules, chiffres, symboles
+• Ne pas utiliser d'informations personnelles
+• Changer tous les 3 mois
+• Exemple : SchL@2024!Cameroun
+
+───────────────────────────────────────────────────────────────────────────
+
+TABLEAU DE BORD (DASHBOARD)
+───────────────────────────────────────────────────────────────────────────
+
+3.1 VUE D'ENSEMBLE
+
+Le Tableau de Bord est votre première page après connexion. C'est un résumé
+de toutes les informations importantes de votre établissement.
+
+Année scolaire affichée : [En haut du tableau]
+Date de mise à jour : Automatique
+
+3.2 STATISTIQUES PRINCIPALES
+
+Cartes de synthèse :
+
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│  👥 ÉLÈVES      │  │  👨‍💼 PERSONNEL   │  │  📚 CLASSES    │
+│  Inscrits       │  │  Actif          │  │  Actives       │
+│                 │  │                 │  │                │
+│  60             │  │  13             │  │  3             │
+└─────────────────┘  └─────────────────┘  └─────────────────┘
+
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│  💰 ENCAISSÉS   │  │  📊 PAIEMENTS   │  │  ❌ ABSENCES    │
+│  Ce mois        │  │  Soldés         │  │  Aujourd'hui    │
+│                 │  │                 │  │                 │
+│  0 FCFA         │  │  18/60          │  │  0              │
+└─────────────────┘  └─────────────────┘  └─────────────────┘
+
+3.3 GRAPHIQUES ET ANALYSE
+
+Le tableau affiche 3 graphiques automatiques :
+
+1. ENCAISSEMENTS PAR MOIS (6 derniers mois)
+   → Évolution des rentrées financières
+   → Identifier les mois de forte collecte
+
+2. RÉPARTITION PAR SEXE DES ÉLÈVES
+   → Garçons vs Filles en pourcentage
+   → Visualiser l'équilibre
+
+3. TAUX DE PAIEMENT PAR CLASSE
+   → Pourcentage de paiements effectués par classe
+   → Identifier les classes en retard
+
+Comment interpréter :
+• Ligne montante = Situation s'améliore
+• Ligne descendante = Attention requise
+• Cliquer sur un graphique = Afficher plus de détails
+
+───────────────────────────────────────────────────────────────────────────
+
+GESTION DES ÉLÈVES
+───────────────────────────────────────────────────────────────────────────
+
+4.1 INSCRIPTION D'UN ÉLÈVE
+
+Première étape : Cliquer sur « Élèves » dans le menu de gauche
+
+Bouton « + Inscrire un élève »
+
+Remplir le formulaire :
+
+INFORMATIONS PERSONNELLES
+├─ Nom complet * (obligatoire)
+├─ Prénoms * (obligatoire)
+├─ Date de naissance * (obligatoire)
+├─ Sexe * (Masculin / Féminin)
+├─ Lieu de naissance
+├─ Nationalité
+└─ Numéro d'identité (si disponible)
+
+CONTACTS
+├─ Adresse résidence
+├─ Téléphone parent
+├─ Email parent
+└─ Contact d'urgence
+
+INFORMATIONS SCOLAIRES
+├─ Classe * (2nde A, 1ère D, Tle C, etc.)
+├─ Ancien établissement
+├─ Redoublement (Oui / Non)
+└─ Observations
+
+PHOTO
+└─ Télécharger une photo (JPG, PNG - max 5 Mo)
+
+Points importants :
+✓ Les champs avec * sont obligatoires
+✓ Vérifier l'orthographe du nom
+✓ Utiliser la date au format : JJ/MM/AAAA
+✓ Une photo nette facilite l'identification
+✓ Sauvegarder régulièrement
+
+Après remplissage :
+1. Cliquer sur « Inscrire »
+2. L'élève reçoit un matricule unique (ex: LMA2026060)
+3. Message de confirmation affichée
+4. L'élève apparaît dans la liste
+
+4.2 MODIFICATION DES INFORMATIONS
+
+Pour modifier un élève :
+1. Aller à « Élèves »
+2. Trouver l'élève (recherche ou défilement)
+3. Cliquer sur l'icon MODIFIER (crayon) à droite
+4. Mettre à jour les informations
+5. Cliquer sur « Enregistrer »
+
+Historique conservé :
+- Toute modification est enregistrée
+- Responsable identifiée
+- Heure et date mémorisées
+
+Suppression d'un élève :
+⚠️ Non recommandé (perte de données historiques)
+→ Utiliser plutôt : « Archiver » l'élève
+→ Accès : Icon poubelle (rouge) à droite
+
+4.3 IMPORT EN MASSE (CSV)
+
+Gestion rapide de plusieurs élèves
+
+Accès :
+1. Aller à « Élèves »
+2. Cliquer sur « Importer en masse »
+
+Étapes :
+
+1. TÉLÉCHARGER LE MODÈLE
+   → Cliquer « Télécharger le fichier CSV »
+   → Ouvrir dans Excel ou LibreOffice Calc
+
+2. REMPLIR LE FICHIER
+   Colonnes requis :
+   nom,prenoms,date_naissance,sexe,classe
+
+   Exemple :
+   ┌──────────────┬──────────────┬──────────────┬───────┬──────────┐
+   │ nom          │ prenoms      │ naissance    │ sexe  │ classe   │
+   ├──────────────┼──────────────┼──────────────┼───────┼──────────┤
+   │ DIALLO       │ Aminata      │ 10/05/2008   │ F     │ 2nde A   │
+   │ KONATÉ       │ Ibrahim      │ 23/03/2008   │ M     │ 2nde A   │
+   │ SANOGO       │ Mariam       │ 15/07/2009   │ F     │ 1ère D   │
+   └──────────────┴──────────────┴──────────────┴───────┴──────────┘
+
+3. ENREGISTRER EN CSV
+   Format : UTF-8
+   Délimiteur : Point-virgule (;)
+
+4. IMPORTER DANS ERP
+   → Cliquer « Sélectionner le fichier »
+   → Choisir le fichier CSV
+   → Cliquer « Importer »
+
+5. VÉRIFICATION
+   → Liste des élèves importés
+   → Nombre ajouté/erreur signalée
+   → Corriger les erreurs et réessayer
+
+Erreurs courantes :
+❌ Format date incorrect → JJ/MM/AAAA
+❌ Classe inexistante → Vérifier l'orthographe
+❌ Nom vide → Tous les champs requis obligatoires
+❌ Fichier ne se charge pas → Vérifier le codage UTF-8
+
+4.4 EXPORT DES DONNÉES
+
+Exporter la liste complète :
+1. Aller à « Élèves »
+2. Cliquer sur « Exporter » (icone Excel)
+3. Choisir le format :
+   ✓ Excel (.xlsx) - Recommandé
+   ✓ CSV (.csv) - Pour d'autres applications
+
+Le fichier inclut :
+• Matricule
+• Nom et prénoms
+• Date de naissance
+• Sexe
+• Classe
+• Statut (Actif/Archivé)
+• Date d'inscription
+• Contact parent
+• Et 10 autres informations
+
+Le fichier télécharge automatiquement sur votre ordinateur.
+
+───────────────────────────────────────────────────────────────────────────
+
+GESTION DU PERSONNEL
+───────────────────────────────────────────────────────────────────────────
+
+5.1 AJOUT D'UN ENSEIGNANT
+
+Menu : Cliquer sur « Personnel »
+
+Bouton « + Ajouter »
+
+Remplir le formulaire :
+
+INFORMATIONS PERSONNELLES
+├─ Nom * (obligatoire)
+├─ Prénoms * (obligatoire)
+├─ Date de naissance
+├─ Sexe
+├─ Numéro d'identité
+└─ Photo
+
+CONTACTS
+├─ Email professionnel *
+├─ Téléphone
+├─ Adresse
+└─ Contact d'urgence
+
+INFORMATIONS PROFESSIONNELLES
+├─ Type de poste * (Enseignant / Admin / Comptable)
+├─ Spécialité / Matière
+├─ Date d'embauche
+├─ Contrat * (Permanent / Temporaire)
+├─ Salaire (privé, non affiché)
+└─ Observations
+
+CRÉATION DE COMPTE
+├─ Créer un compte utilisateur ? (Oui/Non)
+├─ Si OUI → Identifiant créé automatiquement
+└─ Mot de passe initial généré et envoyé par email
+
+Exemple identifiant : prof.toure (basé sur nom/prénoms)
+
+Après création :
+1. Confirmé par email
+2. Peut se connecter à l'application
+3. Accès selon son rôle/permission
+
+5.2 ATTRIBUTION DES RESPONSABILITÉS
+
+Assigner des tâches au personnel :
+
+1. Aller à « Personnel »
+2. Cliquer sur le nom du personnel
+3. Onglet « Responsabilités »
+
+Affectations possibles :
+┌────────────────────┐
+│ ENSEIGNANT         │
+├────────────────────┤
+│ Classe : 2nde A    │
+│ Matière : Anglais  │
+│ Coefficient : 2    │
+└────────────────────┘
+
+┌────────────────────┐
+│ DIRECTEUR          │
+├────────────────────┤
+│ Supervision générale
+│ Approbation budgets
+│ Rapports finaux
+└────────────────────┘
+
+┌────────────────────┐
+│ COMPTABLE          │
+├────────────────────┤
+│ Gestion paiements  │
+│ Bilan financier    │
+│ Exports comptables │
+└────────────────────┘
+
+5.3 GESTION DES DROITS D'ACCÈS
+
+Chaque utilisateur a un rôle avec permissions définies.
+
+Hiérarchie des rôles :
+
+1. SUPER ADMIN
+   → Accès complet à tout
+   → Gestion des établissements
+   → Création de tous les comptes
+   → Sauvegardes système
+
+2. ADMIN ÉTABLISSEMENT
+   → Gestion personnel + élèves
+   → Configuration classes
+   → Rapports complets
+   → Sauf : aspects financiers critiques
+
+3. DIRECTEUR
+   → Consultation de tout
+   → Validation des décisions
+   → Rapports et statistiques
+   → Sauf : modifications libres
+
+4. ENSEIGNANT
+   → Saisie des notes
+   → Gestion des présences
+   → Suivi de sa classe
+   → Consultation seulement (pas de suppression)
+
+5. COMPTABLE
+   → Gestion paiements
+   → Rapports financiers
+   → Comptabilité générale
+   → Sauf : gestion pédagogique
+
+6. SECRÉTAIRE
+   → Support administratif
+   → Documents administratifs
+   → Consultation générale
+   → Sauf : financier/pédagogique sensible
+
+Pour modifier les droits :
+→ Nécessite rôle ADMIN
+→ Aller à Personnel → Droits d'accès
+→ Attribuer ou retirer des permissions
+
+───────────────────────────────────────────────────────────────────────────
+
+[Suite dans les sections suivantes...]
+
+PRÉSENCES (8.1 - 8.3)
+NOTES ET ÉVALUATIONS (9.1 - 9.4)
+PAIEMENTS (11.1 - 11.4)
+RAPPORTS (15.1 - 15.4)
+SUPPORT ET DÉPANNAGE (18.1 - 18.3)
+
+═══════════════════════════════════════════════════════════════════════════
+FIN DU MANUEL
+Dernière mise à jour : Mai 2026
+Version : 1.0
+Support : support@erp-scolaire-cameroun.cm
+═══════════════════════════════════════════════════════════════════════════

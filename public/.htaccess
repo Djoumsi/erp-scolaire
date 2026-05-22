@@ -1,0 +1,12 @@
+Options -Indexes
+RewriteEngine On
+
+# Bloquer l'accès aux fichiers sensibles
+<FilesMatch "\.(env|sql|log|md|json|lock|gitignore)$">
+    Require all denied
+</FilesMatch>
+
+# Rediriger tout vers index.php sauf les fichiers/dossiers existants
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
