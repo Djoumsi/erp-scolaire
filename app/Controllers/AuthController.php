@@ -203,11 +203,11 @@ class AuthController extends Controller
         $mail->CharSet    = 'UTF-8';
 
         $from = $_ENV['MAIL_USERNAME'] ?? 'noreply@erp-scolaire.local';
-        $mail->setFrom($from, $_ENV['MAIL_FROM_NAME'] ?? 'ERP Scolaire');
+        $mail->setFrom($from, $_ENV['MAIL_FROM_NAME'] ?? 'MBOA School');
         $mail->addAddress($to, $name);
 
         $mail->isHTML(true);
-        $mail->Subject = 'Réinitialisation de votre mot de passe — ERP Scolaire';
+        $mail->Subject = 'Réinitialisation de votre mot de passe — MBOA School';
         $mail->Body    = "
             <p>Bonjour <strong>{$name}</strong>,</p>
             <p>Vous avez demandé la réinitialisation de votre mot de passe.</p>
@@ -216,7 +216,7 @@ class AuthController extends Controller
             </a></p>
             <p>Ce lien est valable <strong>1 heure</strong>. Si vous n'êtes pas à l'origine de cette demande, ignorez cet email.</p>
             <hr>
-            <p style='color:#64748b;font-size:12px'>ERP Scolaire — Système de gestion scolaire</p>
+            <p style='color:#64748b;font-size:12px'>MBOA School — Système de gestion scolaire</p>
         ";
         $mail->AltBody = "Réinitialisez votre mot de passe via ce lien (valable 1h) : {$url}";
 
